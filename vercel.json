@@ -1,0 +1,24 @@
+{
+  "outputDirectory": "site",
+  "trailingSlash": true,
+  "rewrites": [
+    { "source": "/tin-tuc/:path*", "destination": "https://wp.1pdm.agency/tin-tuc/:path*" },
+    { "source": "/blog/:path*", "destination": "https://wp.1pdm.agency/blog/:path*" },
+    { "source": "/bai-viet-khac/:path*", "destination": "https://wp.1pdm.agency/bai-viet-khac/:path*" },
+    { "source": "/case-study/:path*", "destination": "https://wp.1pdm.agency/case-study/:path*" },
+    { "source": "/du-an-noi-bat/:path*", "destination": "https://wp.1pdm.agency/du-an-noi-bat/:path*" },
+    { "source": "/chinh-sach/:path*", "destination": "https://wp.1pdm.agency/chinh-sach/:path*" },
+    { "source": "/chinh-sach-quyen-rieng-tu/:path*", "destination": "https://wp.1pdm.agency/chinh-sach-quyen-rieng-tu/:path*" },
+    { "source": "/dich-vu-digital-marketing/:path*", "destination": "https://wp.1pdm.agency/dich-vu-digital-marketing/:path*" },
+    { "source": "/wp-content/:path*", "destination": "https://wp.1pdm.agency/wp-content/:path*" },
+    { "source": "/wp-includes/:path*", "destination": "https://wp.1pdm.agency/wp-includes/:path*" },
+    { "source": "/wp-json/:path*", "destination": "https://wp.1pdm.agency/wp-json/:path*" },
+    { "source": "/wp-admin/admin-ajax.php", "destination": "https://wp.1pdm.agency/wp-admin/admin-ajax.php" },
+    { "source": "/robots.txt", "destination": "https://wp.1pdm.agency/robots.txt" },
+    { "source": "/sitemap_index.xml", "destination": "https://wp.1pdm.agency/sitemap_index.xml" },
+    { "source": "/post-sitemap.xml", "destination": "https://wp.1pdm.agency/post-sitemap.xml" },
+    { "source": "/page-sitemap.xml", "destination": "https://wp.1pdm.agency/page-sitemap.xml" },
+    { "source": "/category-sitemap.xml", "destination": "https://wp.1pdm.agency/category-sitemap.xml" },
+    { "source": "/main-sitemap.xsl", "destination": "https://wp.1pdm.agency/main-sitemap.xsl" }
+  ]
+}
